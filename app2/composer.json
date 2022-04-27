@@ -1,0 +1,17 @@
+{
+    "name": "local-path/app2",
+    "autoload": {
+        "psr-4": {
+            "LocalPath\\App2\\": "src/"
+        }
+    },
+    "repositories": [
+        {"type":"path", "url": "../shared"}
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.6"
+    },
+    "require": {
+        "local-path/shared": "^1.0"
+    }
+}
